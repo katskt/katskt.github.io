@@ -1,0 +1,29 @@
+body {
+    font-size: 1.5rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    line-height: 1.5;
+    /*background-color: red;*/
+    background: #ffefd5;
+    color: rgb(0, 0, 0);
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav {
+    border: 2px solid black;
+    margin: 2%;
+}
+
+nav ul {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+p {
+    color: rgba(333);
+}
+
+
+
+/*coolors.co*/
