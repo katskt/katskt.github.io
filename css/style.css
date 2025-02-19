@@ -15,12 +15,21 @@ body {
     color: rgb(0, 0, 0);
 }
 
+
+nav {
+    width: 100%;
+}
+
 nav ul {
     list-style-type: none;
     padding: 0.5rem;
-    text-align: right;
-    background-color: gray;
+    background-color: rgb(193, 140, 193);
     margin: 0;
+}
+
+nav ul li.title {
+    color: black;
+    text-align: left;
 }
 
 nav ul li {
@@ -31,10 +40,13 @@ nav ul li {
 nav ul li a {
     color: white;
     text-decoration: none;
+    padding: 0.5rem;
+
 }
 
 nav ul li a:hover, nav ul li a:focus {
-    text-decoration: underline steelblue;
+    outline: solid 2px white;
+    
 
 }
 p {
