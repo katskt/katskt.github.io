@@ -18,6 +18,8 @@ body {
 
 nav {
     width: 100%;
+    position: fixed;
+    top: 0;
 }
 
 nav ul {
@@ -53,6 +55,8 @@ p {
     color: rgba(333);
 }
 
-
+article {
+    margin-top: 4rem;
+}
 
 /*coolors.co*/
