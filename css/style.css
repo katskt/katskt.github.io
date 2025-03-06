@@ -76,7 +76,7 @@ article {
 flex-direction: column;
 gap: 2rem;
 margin-right: 2rem;
-height: 150vh; 
+margin-top: 50vh; 
 
 display: flex;
 justify-content: flex-end; 
