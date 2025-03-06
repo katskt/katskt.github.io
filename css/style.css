@@ -54,12 +54,17 @@ nav ul li a:hover, nav ul li a:focus {
 }
 
 main {
-    margin-top: 3rem;
-    margin-left: 2rem;
+    width: 100%;
+    max-width: 75vw;
+    margin: 5rem auto;
+
+    
 
 }
-p {
+main p {
     color: rgba(333);
+    line-height: 1.9;
+    padding: 15px;
 }
 
 article {
@@ -121,5 +126,7 @@ a {
     object-fit: cover;
     border-radius: 10px;
 }
-
+p.date{
+    color: rgb(70, 70, 70);
+}
 /*coolors.co*/
