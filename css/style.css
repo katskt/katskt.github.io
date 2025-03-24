@@ -84,7 +84,6 @@ main p {
     flex-direction: column;
     gap: 2rem;
     margin-right: 2rem;
-    margin-top: 50vh;
 
     display: flex;
     justify-content: flex-end;
