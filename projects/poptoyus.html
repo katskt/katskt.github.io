@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Katskt">
+    <meta name="description" content="The official website for Katskt's blog">
+    <title>Katskt's Blog</title>
+    <link rel="icon" href="../img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="../css/style.css" type="text/css">
+
+</head>
+
+<body>
+    <header>
+        <nav aria-label="primary-navigaton">
+            <ul>
+                <li class="title">
+                    <p>Katie Pyo</p>
+                </li>
+                <li>
+                    <a href="../index.html">Home</a>
+                </li>
+                <li>
+                    <a href="../aboutMe.html">About Me</a>
+                </li>
+                <li>
+                    <a href="../projects.html">Projects</a>
+                </li>
+                <li>
+                    <a href="../contactMe.html">Contact Me</a>
+                    <br>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <div class="bkcontainer">
+        <section class="hero">
+            <img src="../img/poptoyHome.png">
+        </section>
+    </div>
+
+    <main>
+        <h2>POPTOY</h2>
+        <p>April 2, 2025</p>
+
+        <p>Over Spring Break, I had the opportunity to make a website for a toy company, POPTOY.</p>
+
+        <p>Their old website was outdated and many of the links were broken. They hired freelancers to make their
+            page, and I felt that many of the descriptions were AI generated and insincere. </p>
+
+        <p>This is where I could help, I offered to overhaul the whole site to simplify it and update with new products,
+            and give descriptions that are genuine. I also added my own drawings in ways I saw fit.</p>
+
+        <p>I learned:</p>
+        <ul>
+            <li>
+                <p>Domain transfering--from their old website which was on HostGator to the new one.</p>
+            </li>
+            <li>
+                <p>Building a working Contact-Us form submissions</p>
+            </li>
+            <li>
+                <p>Implementing animations and transitions to make the site interactive and interesting</p>
+            </li>
+            <li>
+                <p>To use @media to design a mobile friendly viewing experience</p>
+            </li>
+            <li>
+                <p>Making a mock up in figma before implementing the HTML/CSS</p>
+            </li>
+        </ul>
+
+        <h2>Check Out the Website: <a href="https://poptoyus.com">here</a></h2>
+
+    </main>
+</body>
+<script>
+    if (window.location.pathname.endsWith(".html")) {
+        const newPath = window.location.pathname.replace(".html", "");
+        window.history.replaceState(null, "", newPath);
+    }
+</script>
+
+</html>
